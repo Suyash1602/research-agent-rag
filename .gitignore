@@ -1,0 +1,99 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.hypothesis/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Notebook outputs
+*.nbconvert.ipynb
+.ipynb_checkpoints/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Virtual environments
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Environment files (keep real .env out of repo; commit .env.example)
+.env
+.env.local
+.env.*.local
+
+# Dataset / large files
+files/
+data/
+datasets/
+*.csv
+*.tsv
+*.jsonl
+*.json
+
+# Databases
+*.sqlite3
+*.db
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs / runtime files
+logs/
+*.log
+output/
+tmp/
+temp/
+
+# Packaging/tooling
+node_modules/
+*.tgz
+
+# Secrets and config backups
+secrets.json
+*.pem
+*.key
+*.crt
+
+# Build artifacts
+*.pyc
+*.pyo
+*.pyd
+*.class
+*.log
+
+# Misc
+coverage.xml
+*.bak

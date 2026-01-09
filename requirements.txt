@@ -1,0 +1,30 @@
+# --- LLM / Embeddings (Gemini) ---
+google-generativeai
+langchain-google-genai
+
+# --- LangChain ecosystem ---
+langchain
+langchain-community
+
+# --- LangGraph ---
+langgraph
+
+# --- Environment variables ---
+python-dotenv
+
+# --- PDF parsing ---
+pypdf
+
+# --- HTTP / Data handling ---
+requests
+pandas
+
+# --- Semantic Router (you keep it even if OpenAIEncoder is replaced) ---
+semantic_router
+
+# --- Pinecone vector database ---
+pinecone
+
+# --- Web search ---
+serpapi
+google-search-results
