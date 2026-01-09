@@ -126,9 +126,3 @@ python scripts/query.py
 This project is a small research prototype. Add a `LICENSE` file if you plan to publish under an open-source license.
 
 ---
-
-If you want, I can also:
-
-- extract the notebook into small runnable scripts,
-- add a simple CLI for building the vector index and querying it,
-- or create a minimal `requirements.txt` lock file. Tell me which you'd prefer.
