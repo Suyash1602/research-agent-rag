@@ -70,15 +70,26 @@ Notes:
 
 ## Environment variables
 
-Keep these in `.env` (use `.env.example` as a template). Replace placeholders with real values locally:
+All sensitive configuration and API keys should be stored in `.env` (never committed).  
+Use `.env.example` as a template and fill in your real values locally.
 
-- `FLASK_ENV` — e.g. `development`
-- `DEBUG` — `True` or `False`
-- `SECRET_KEY` — application secret (keep private)
-- `OPENAI_API_KEY` — API key for chosen LLM provider (if used)
-- `DATABASE_URL` — optional database connection URL
-- `S3_BUCKET_NAME`, `S3_ACCESS_KEY`, `S3_SECRET_KEY` — optional storage credentials
-- `SOME_FEATURE_FLAG` — app-specific flags
+| Variable         | Description                |
+| ---------------- | -------------------------- |
+| GOOGLE_API_KEY   | Google API key             |
+| PINECONE_API_KEY | Pinecone vector DB API key |
+| TAVILY_API_KEY   | Tavily API key             |
+| SERPAPI_KEY      | SerpAPI key for search     |
+
+**How to use:**
+
+1. Copy `.env.example` to `.env`:
+   ```powershell
+   Copy-Item .env.example .env
+   ```
+2. Edit `.env` and replace placeholder values with your real secrets.
+
+**Note:**  
+Never commit your `.env` file. Only `.env.example` should be tracked in git to document required variables.
 
 ## Usage
 
